@@ -3,4 +3,116 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1">Heritage</string>
+    <string name="tab2">Beaches</string>
+    <string name="tab3">Temples</string>
+    <string name="tab4">Experience</string>
+    <string name="tab5">NearBy</string>
+
+    <!--Beaches -->
+    <string name="beach1">Auroville Beach</string>
+    <string name="beach2">Paradise Beach</string>
+    <string name="beach3">Promenade Beach</string>
+    <string name="beach4">Serenity Beach</string>
+    <string name="beach5">VEERAMPATTINAM BEACH</string>
+
+    <string name="bloc1">Location: Periyamudaliar Chavadi</string>
+    <string name="bloc2">Location: Nonankuppam</string>
+    <string name="bloc3">Location: Beach Road</string>
+    <string name="bloc4">Location: Kottakuppam</string>
+    <string name="bloc5">Location:Veerampattinam</string>
+
+    <!--Experience-->
+    <string name="exp1">Pondicherry Aqua Tourism</string>
+    <string name="exp2">Culture Arts And Crafts</string>
+    <string name="exp3">Shopping</string>
+    <string name="exp4">Health and Wellness</string>
+    <string name="exp5">Gourmet</string>
+    <string name="exp6">Faith Based</string>
+    <string name="exp7">Puducherry Science Centre And Planetarium</string>
+    <string name="exp8">M.I.C.E</string>
+    <string name="exp9">Sports And Adventure Sports</string>
+    <string name="exp10">Filming</string>
+    <string name="exp11">Heritage Walks </string>
+    <string name="exp12">Education</string>
+
+    <string name="eDesc1">Backwater Tourist Center</string>
+    <string name="eDesc2">Discover French Influence on Tamil heritage</string>
+    <string name="eDesc3">Ceramic tableware and ornaments, terracotta toys and trinkets...</string>
+    <string name="eDesc4">Speciality hospitals, testing facilities and labs, at a fraction of the cost</string>
+    <string name="eDesc5">Few things demonstrate Pondicherry\'s rich historical heritage and diverse contemporary culture the way its cuisine does....</string>
+    <string name="eDesc6">Pondicherry has several sites of religious and spiritual interest...</string>
+    <string name="eDesc7">6 areas of focus at the moment with ample provision for...</string>
+    <string name="eDesc8">Pondicherry is a budding destination for corporate and other meetings and events...</string>
+    <string name="eDesc9">Pondicherry offers tourists a host of recreational sports to partake of...</string>
+    <string name="eDesc10">Heritage Franco-Indian buildings in eye-catching hues...</string>
+    <string name="eDesc11">Starts from Ashram Office and ends at Dining Room...</string>
+    <string name="eDesc12">Pondicherry\'s excellent formal education opportunities are availed by students from all over the country...</string>
+
+    <!--Heritage -->
+    <string name="her1">ASHRAM DINING ROOM (since 1934)</string>
+    <string name="her2">Sri Aurobindo International Centre of Education</string>
+    <string name="her3">AUROVILLE</string>
+    <string name="her4">SRI AUROBINDO ASHRAM</string>
+
+    <string name="hDesc1">Location:Ananda Ranga Pillai Street</string>
+    <string name="hDesc2">Location:Rue de la Marine (Chetty Street Extn.)</string>
+    <string name="hDesc3">Location:Bommayapalayam</string>
+    <string name="hDesc4">Location:Marine St, White Town</string>
+
+    <!-- Nearby -->
+    <string name="tem1">Gangaikondacholapuram</string>
+    <string name="tem2">Chidambaram</string>
+    <string name="tem3">Gingee</string>
+    <string name="tem4">Karaikal</string>
+    <string name="tem5">Keezhoor</string>
+    <string name="tem6">Mandagapattu</string>
+    <string name="tem7">Marakanam</string>
+    <string name="tem8">Nagapattinam</string>
+    <string name="tem9">Nagore</string>
+    <string name="tem10">Panamalai</string>
+    <string name="tem11">Pichavaram</string>
+    <string name="tem12">Singavaram</string>
+    <string name="tem13">Tharangambadi</string>
+    <string name="tem14">Thalavanur</string>
+    <string name="tem15">Thiruvannamalai</string>
+    <string name="tem16">Vedanthangal</string>
+    <string name="tem17">Velankanni</string>
+    <string name="tem18">Mahabalipuram</string>
+
+    <string name="tDesc1">Location:100 Kms to South</string>
+    <string name="tDesc2">Location:100 Kms to North</string>
+    <string name="tDesc3">Location:70 Kms to NW</string>
+    <string name="tDesc4">Location:130Kms to South</string>
+    <string name="tDesc5">Location:22 kms to the West</string>
+    <string name="tDesc6">Location:57 kms to the West</string>
+    <string name="tDesc7">Location:38 kms to the North</string>
+    <string name="tDesc8">Location:152 kms to the South</string>
+    <string name="tDesc9">Location:140 kms to the South</string>
+    <string name="tDesc10">Location:66 kms to the West</string>
+    <string name="tDesc11">Location:73 kms to the South</string>
+    <string name="tDesc12">Location:70 kms to the North West</string>
+    <string name="tDesc13">Location:114 Kms to the South</string>
+    <string name="tDesc14">Location:67 Kms to the West</string>
+    <string name="tDesc15">Location:106 Kms to the West</string>
+    <string name="tDesc16">Location:100 Kms to the North</string>
+    <string name="tDesc17">Location:160 Kms to the South</string>
+    <string name="tDesc18">Location:100 Kms to the North</string>
+
+    <!-- Worship -->
+    <string name="wor1">KAMATCHIAMMAN KOIL</string>
+    <string name="wor2">KANNIGA PARAMESWARI TEMPLE</string>
+    <string name="wor3">MANAKULA VINAYAGAR TEMPLE</string>
+    <string name="wor4">SRI GOKILAMBAL THIRUKAMESHWARA TEMPLE</string>
+    <string name="wor5">SRI VARADARAJA PERUMAL TEMPLE</string>
+    <string name="wor6">VEDHAPUREESWARAR TEMPLE</string>
+
+    <string name="wDesc1">The singularity of the temple lies in the unembellished form of the temple structure</string>
+    <string name="wDesc2">The temple is unique in its architecture as it blends the style of the French with the traditional Deccan architecture of India.</string>
+    <string name="wDesc3">The ancient temple was constructed three centuries ago and still stands in all its magnificent glory.</string>
+    <string name="wDesc4">During French colonial rule, the Governor of Puducherry used to join this very procession and actively participate in the drawing of the chariot through the streets.</string>
+    <string name="wDesc5">It is believed to be one of the oldest temples in the town and is 800 years old.</string>
+    <string name="wDesc6">One of the oldest of Temples. Was demolished by French in 1748 and rebuilt</string>
+
+
 </resources>

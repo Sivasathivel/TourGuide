@@ -3,7 +3,6 @@ package com.example.android.tourguide;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,24 +26,20 @@ public class ExperienceFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list,container,false);
         final ArrayList<ListItem> items = new ArrayList<ListItem>();
-        items.add(new ListItem("Pondicherry Aqua Tourism", "Backwater Tourist Center"));
-        items.add(new ListItem("Culture Arts And Crafts", "Discover French Influence on Tamil heritage"));
-        items.add(new ListItem("Shopping", "Ceramic tableware and ornaments, terracotta toys and trinkets...\n"));
-        items.add(new ListItem("Health And Wellness", "Speciality hospitals, testing facilities and labs, at a fraction of the cost"));
-        items.add(new ListItem("Gourmet", "Few things demonstrate Pondicherry's rich historical heritage and diverse contemporary culture the way its cuisine does...."));
-        items.add(new ListItem("Faith Based", "Pondicherry has several sites of religious and spiritual interest..."));
-        items.add(new ListItem("Puducherry Science Centre And Planetarium", "6 areas of focus at the moment with ample provision for...\n"));
-        items.add(new ListItem("M.I.C.E", "Pondicherry is a budding destination for corporate and other meetings and events..."));
-        items.add(new ListItem("Sports And Adventure Sports", "Pondicherry offers tourists a host of recreational sports to partake of..."));
-        items.add(new ListItem("Filming", "Heritage Franco-Indian buildings in eye-catching hues..."));
-        items.add(new ListItem("Heritage Walks", "Starts from Ashram Office and ends at Dining Room..."));
-        items.add(new ListItem("Education", "Pondicherry's excellent formal education opportunities are availed by students from all over the country..."));
+        items.add(new ListItem(getString(R.string.exp1), getString(R.string.eDesc1)));
+        items.add(new ListItem(getString(R.string.exp2), getString(R.string.eDesc2)));
+        items.add(new ListItem(getString(R.string.exp3), getString(R.string.eDesc3)));
+        items.add(new ListItem(getString(R.string.exp4), getString(R.string.eDesc4)));
+        items.add(new ListItem(getString(R.string.exp5), getString(R.string.eDesc5)));
+        items.add(new ListItem(getString(R.string.exp6), getString(R.string.eDesc6)));
+        items.add(new ListItem(getString(R.string.exp7), getString(R.string.eDesc7)));
+        items.add(new ListItem(getString(R.string.exp8), getString(R.string.eDesc8)));
+        items.add(new ListItem(getString(R.string.exp9), getString(R.string.eDesc9)));
+        items.add(new ListItem(getString(R.string.exp10), getString(R.string.eDesc10)));
+        items.add(new ListItem(getString(R.string.exp11), getString(R.string.eDesc11)));
+        items.add(new ListItem(getString(R.string.exp12), getString(R.string.eDesc12)));
         ListView listView = (ListView)rootView.findViewById(R.id.list);
-        if(listView == null)
-            Log.e("Error in Listview","listView is null");
         ListItemAdapter adapter = new ListItemAdapter(getActivity(),items, R.color.colorAccent);
-        if(adapter == null)
-            Log.e("Error in adapter","adapter is null");
         listView.setAdapter(adapter);
         return rootView;
     }

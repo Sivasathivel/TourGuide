@@ -3,7 +3,6 @@ package com.example.android.tourguide;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,29 +27,15 @@ public class WorshipFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         final ArrayList<ListItem> items = new ArrayList<ListItem>();
-        items.add(new ListItem("KAMATCHIAMMAN KOIL",
-                "The singularity of the temple lies in the unembellished form of the temple structure",
-                R.drawable.kamatchi));
-        items.add(new ListItem("KANNIGA PARAMESWARI TEMPLE",
-                "The temple is unique in its architecture as it blends the style of the French with the traditional Deccan architecture of India.",
-                R.drawable.kanniga));
-        items.add(new ListItem("MANAKULA VINAYAGAR TEMPLE",
-                "The ancient temple was constructed three centuries ago and still stands in all its magnificent glory.",
-                R.drawable.mana));
-        items.add(new ListItem("SRI GOKILAMBAL THIRUKAMESHWARA TEMPLE",
-                "During French colonial rule, the Governor of Puducherry used to join this very procession and actively participate in the drawing of the chariot through the streets.",
-                R.drawable.goki));
-        items.add(new ListItem("SRI VARADARAJA PERUMAL TEMPLE",
-                " It is believed to be one of the oldest temples in the town and is 800 years old.", R.drawable.varada));
-        items.add(new ListItem("VEDHAPUREESWARAR TEMPLE",
-                "One of the oldest of Temples. Was demolished by French in 1748 and rebuilt", R.drawable.vedha));
+        items.add(new ListItem(getString(R.string.wor1), getString(R.string.wDesc1), R.drawable.kamatchi));
+        items.add(new ListItem(getString(R.string.wor2), getString(R.string.wDesc2), R.drawable.kanniga));
+        items.add(new ListItem(getString(R.string.wor3), getString(R.string.wDesc3), R.drawable.mana));
+        items.add(new ListItem(getString(R.string.wor4), getString(R.string.wDesc4), R.drawable.goki));
+        items.add(new ListItem(getString(R.string.wor5), getString(R.string.wDesc5), R.drawable.varada));
+        items.add(new ListItem(getString(R.string.wor6), getString(R.string.wDesc6), R.drawable.vedha));
 
         ListView listView = (ListView)rootView.findViewById(R.id.list);
-        if(listView == null)
-            Log.e("Error in Listview","listView is null");
         ListItemAdapter adapter = new ListItemAdapter(getActivity(),items, R.color.colorAccent);
-        if(adapter == null)
-            Log.e("Error in adapter","adapter is null");
         listView.setAdapter(adapter);
 
         return rootView;

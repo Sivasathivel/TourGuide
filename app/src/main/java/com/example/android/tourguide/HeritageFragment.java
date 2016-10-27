@@ -28,12 +28,10 @@ public class HeritageFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         final ArrayList<ListItem> items = new ArrayList<ListItem>();
-        items.add(new ListItem("ASHRAM DINING ROOM (since 1934)", "Location:\nAnanda Ranga Pillai Street"));
-        items.add(new ListItem("Sri Aurobindo International Centre of Education",
-                "Location:\n Rue de la Marine (Chetty Street Extn.)"));
-        items.add(new ListItem("AUROVILLE","Location:\nBommayapalayam"));
-        items.add(new ListItem("SRI AUROBINDO ASHRAM",
-                "Location:\nMarine St, White Town"));
+        items.add(new ListItem(getString(R.string.her1), getString(R.string.hDesc1)));
+        items.add(new ListItem(getString(R.string.her2), getString(R.string.hDesc2)));
+        items.add(new ListItem(getString(R.string.her3), getString(R.string.hDesc3)));
+        items.add(new ListItem(getString(R.string.her4), getString(R.string.hDesc4)));
 
         ListView listView = (ListView)rootView.findViewById(R.id.list);
         if(listView == null)

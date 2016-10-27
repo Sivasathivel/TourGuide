@@ -28,25 +28,24 @@ public class NearByFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         final ArrayList<ListItem> items = new ArrayList<ListItem>();
-        items.add(new ListItem("Gangaikondacholapuram", "Location:\n100 Kms to South"));
-        items.add(new ListItem("Chidambaram",
-                "Location:\n100 Kms to North"));
-        items.add(new ListItem("Gingee","Location:\n70 Kms to NW"));
-        items.add(new ListItem("Karaikal", "Location:\n130Kms to South"));
-        items.add(new ListItem("Keezhoor", "Location:\n22 kms to the West"));
-        items.add(new ListItem("Mandagapattu", "Location:\n57 kms to the West"));
-        items.add(new ListItem("Marakanam", "Location:\n38 kms to the North"));
-        items.add(new ListItem("Nagapattinam", "Location:\n152 kms to the South"));
-        items.add(new ListItem("Nagore", "Location:\n140 kms to the South"));
-        items.add(new ListItem("Panamalai", "Location:\n66 kms to the West"));
-        items.add(new ListItem("Pichavaram", "Location:\n73 kms to the South"));
-        items.add(new ListItem("Singavaram", "Location:\n70 kms to the North West"));
-        items.add(new ListItem("Tharangambadi", "Location:\n114 Kms to the South"));
-        items.add(new ListItem("Thalavanur", "Location:\n67 Kms to the West"));
-        items.add(new ListItem("Thiruvannamalai", "Location:\n106 Kms to the West"));
-        items.add(new ListItem("Vedanthangal", "Location:\n100 Kms to the North"));
-        items.add(new ListItem("Velankanni", "Location:\n160 Kms to the South"));
-        items.add(new ListItem("Mahabalipuram", "Location:\n100 Kms to the North"));
+        items.add(new ListItem(getString(R.string.tem1), getString(R.string.tDesc1)));
+        items.add(new ListItem(getString(R.string.tem2), getString(R.string.tDesc2)));
+        items.add(new ListItem(getString(R.string.tem3), getString(R.string.tDesc3)));
+        items.add(new ListItem(getString(R.string.tem4), getString(R.string.tDesc4)));
+        items.add(new ListItem(getString(R.string.tem5), getString(R.string.tDesc5)));
+        items.add(new ListItem(getString(R.string.tem6), getString(R.string.tDesc6)));
+        items.add(new ListItem(getString(R.string.tem7), getString(R.string.tDesc7)));
+        items.add(new ListItem(getString(R.string.tem8), getString(R.string.tDesc8)));
+        items.add(new ListItem(getString(R.string.tem9), getString(R.string.tDesc9)));
+        items.add(new ListItem(getString(R.string.tem10), getString(R.string.tDesc10)));
+        items.add(new ListItem(getString(R.string.tem11), getString(R.string.tDesc11)));
+        items.add(new ListItem(getString(R.string.tem12), getString(R.string.tDesc12)));
+        items.add(new ListItem(getString(R.string.tem13), getString(R.string.tDesc13)));
+        items.add(new ListItem(getString(R.string.tem14), getString(R.string.tDesc14)));
+        items.add(new ListItem(getString(R.string.tem15), getString(R.string.tDesc15)));
+        items.add(new ListItem(getString(R.string.tem16), getString(R.string.tDesc16)));
+        items.add(new ListItem(getString(R.string.tem17), getString(R.string.tDesc17)));
+        items.add(new ListItem(getString(R.string.tem18), getString(R.string.tDesc18)));
 
         ListView listView = (ListView)rootView.findViewById(R.id.list);
         if(listView == null)

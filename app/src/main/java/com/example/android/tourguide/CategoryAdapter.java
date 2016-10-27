@@ -43,15 +43,15 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch(position){
             case 0:
-                return "Heritage";
+                return tgContext.getString(R.string.tab1);
             case 1:
-                return "Beaches";
+                return tgContext.getString(R.string.tab2);
             case 2:
-                return "Temples";
+                return tgContext.getString(R.string.tab3);
             case 3:
-                return "Experience";
+                return tgContext.getString(R.string.tab4);
             case 4:
-                return "NearBy";
+                return tgContext.getString(R.string.tab5);
         }
         return null;
     }
